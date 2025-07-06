@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="?attr/isv_icon_user_default"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:textColor="?attr/isv_color_C7"
+        android:textSize="?attr/isv_font_size_T7"
+        app:layout_constraintLeft_toRightOf="@+id/icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:textColor="?attr/isv_color_C5"
+        android:textSize="?attr/isv_font_size_T9"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pointTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/pd_base_floor_comment_point"
+        android:textColor="?attr/isv_color_C5"
+        android:textSize="?attr/isv_font_size_T9"
+        app:layout_constraintLeft_toRightOf="@+id/icon"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+    <com.github.floormanager.ui.ScaleRatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6.5dp"
+        app:defaultStar="@string/icon_favorite_line_big"
+        app:defaultStarColor="?attr/isv_color_C4"
+        app:isIndicator="true"
+        app:layout_constraintLeft_toRightOf="@+id/pointTitle"
+        app:layout_constraintTop_toBottomOf="@+id/userName"
+        app:rating="5.0"
+        app:ratingStar="@string/icon_favorite_fill_big"
+        app:ratingStarColor="?attr/isv_color_C9"
+        app:starGap="1dp"
+        app:starNum="5"
+        app:starSize="9dp"
+        app:starStep="1.0" />
+
+    <com.github.floormanager.widget.TagFlowLayout
+        android:id="@+id/tagList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon" />
+
+</merge>

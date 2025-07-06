@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pd_base_floor_title_address">送至</string>
+    <string name="pd_base_floor_title_attr">已选</string>
+    <string name="pd_base_floor_btn_like_normal">收藏</string>
+    <string name="pd_base_floor_btn_like_selected">已收藏</string>
+    <string name="pd_base_floor_title_promo">优惠</string>
+    <string name="pd_base_floor_tag_promo_coupon">领券</string>
+    <string name="pd_base_floor_btn_shop">进店逛逛 ></string>
+    <string name="pd_base_floor_btn_shop_service">联系客服</string>
+    <string name="pd_base_floor_btn_shop_like">关注店铺</string>
+    <string name="pd_base_floor_btn_shop_has_like">已关注</string>
+
+    <string name="pd_base_floor_btn_vr">VR</string>
+    <string name="pd_base_floor_title_video">视频专区</string>
+    <string name="pd_base_floor_title_web">商品介绍</string>
+    <string name="pd_base_floor_price_empty">暂无报价</string>
+    <string name="pd_base_floor_title_after_sale">售后保障</string>
+    <string name="pd_base_floor_title_package">包装</string>
+    <string name="pd_base_floor_title_recommend">商品推荐</string>
+    <string name="pd_base_floor_title_specification">规格参数</string>
+
+    <string name="pd_base_floor_title_store">门店</string>
+    <string name="pd_base_floor_store_checkout">查看门店 ></string>
+
+    <string name="pd_base_floor_expansion">展开</string>
+    <string name="pd_base_floor_pack_up">收起</string>
+
+    <string name="pd_base_floor_comment_title">商品评价(%1d)</string>
+    <string name="pd_base_floor_comment_title_no_comment">暂无评价</string>
+    <string name="pd_base_floor_comment_point">评分</string>
+    <string name="pd_base_floor_comment_applause_rate">好评度%1d%%</string>
+
+    <string name="pd_base_floor_dialog_product_attr_btn_add_to_cart">加入购物车</string>
+    <string name="pd_base_floor_dialog_product_attr_btn_buy_now">立即购买</string>
+    <string name="pd_base_floor_dialog_product_attr_btn_ok">确定</string>
+    <string name="pd_base_floor_dialog_product_attr_price_empty">暂无报价</string>
+    <string name="pd_base_floor_dialog_product_attr_title_count">数量</string>
+    <string name="pd_base_floor_dialog_product_attr_out_of_stock">暂时缺货</string>
+    <string name="pd_base_floor_dialog_product_select_hint">请选择全部商品属性</string>
+
+    <string name="pd_base_floor_recommend_out_of_stock">无货</string>
+
+    <string name="pd_base_floor_web_container_view_not_web_content_hint">暂无商品详情</string>
+    <string name="pd_base_floor_web_container_view_not_web_content_retry">加载失败，请刷新</string>
+
+    <string name="pd_base_floor_icon_more">></string>
+    <string name="pd_base_floor_icon_location">📍</string>
+    <string name="pd_base_floor_icon_video_play">▶</string>
+
+    <string name="pd_base_floor_slash_success_num_hint">%s 人砍价成功</string>
+    <string name="pd_base_floor_slash_count_down_hint">距结束还剩</string>
+    <string name="pd_base_floor_price_slash_hint">砍后价</string>
+    <string name="pd_base_floor_day">天</string>
+    <string name="pd_base_floor_count_down_divider">:</string>
+
+    <string name="icon_favorite_fill_big">★</string>
+    <string name="icon_favorite_line_big">☆</string>
+    <string name="icon_bargain">🔥</string>
+    <string name="icon_play">▶</string>
+
+</resources>

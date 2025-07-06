@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="12dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/skuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pd_base_floor_bg_product_attr_item_text_selector"
+        android:gravity="center"
+        android:minWidth="40dp"
+        android:minHeight="30dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textSize="?attr/isv_font_size_T7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/outOfStockTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pd_base_floor_bg_product_attr_item_tag_selector"
+        android:padding="2dp"
+        android:text="@string/pd_base_floor_dialog_product_attr_out_of_stock"
+        android:textColor="?attr/isv_color_C1"
+        android:textSize="9sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

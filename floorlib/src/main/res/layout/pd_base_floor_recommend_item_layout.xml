@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="?attr/isv_space_W10"
+    android:layout_marginRight="3dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/pd_base_floor_bg_recommend_item"
+    android:paddingBottom="12dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/outOfStockTag"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?attr/isv_color_C8_70"
+        android:gravity="center"
+        android:text="@string/pd_base_floor_recommend_out_of_stock"
+        android:textColor="?attr/isv_color_C1"
+        android:textSize="?attr/isv_font_size_T9"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/img" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textColor="?attr/isv_color_C7"
+        android:textSize="?attr/isv_font_size_T7"
+        app:layout_constraintTop_toBottomOf="@+id/img" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/salePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:textColor="?attr/isv_color_C9"
+        android:textSize="?attr/isv_font_size_T9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/originalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textColor="?attr/isv_color_C5"
+        android:textSize="?attr/isv_font_size_T9"
+        app:layout_constraintBaseline_toBaselineOf="@+id/salePrice"
+        app:layout_constraintLeft_toRightOf="@+id/salePrice" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

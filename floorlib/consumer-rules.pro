@@ -1,0 +1,5 @@
+-keep class com.github.floormanager.pdFloor.entity.**{ *;}
+-keep class com.github.floormanager.pdFloor.floor.**{ *;}
+-keep class com.github.floormanager.utils.**{ *;}
+-keep class com.github.floormanager.ui.**{ *;}
+-keep class com.github.floormanager.video.**{ *;}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义RatingBar Drawable-->
+    <style name="PDBaseFloorRatingBarCustomDrawable" parent="@android:style/Widget.Holo.RatingBar.Indicator">
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:minWidth">12dp</item>
+        <item name="android:maxWidth">12dp</item>
+
+    </style>
+
+    <!-- Floor库主题 -->
+    <style name="PDBaseFloorTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 颜色属性 -->
+        <item name="isv_color_C1">@color/color_C1</item>
+        <item name="isv_color_C2">@color/color_C2</item>
+        <item name="isv_color_C3">@color/color_C3</item>
+        <item name="isv_color_C4">@color/color_C4</item>
+        <item name="isv_color_C5">@color/color_C5</item>
+        <item name="isv_color_C7">@color/color_C7</item>
+        <item name="isv_color_C8_30">@color/color_C8_30</item>
+        <item name="isv_color_C9">@color/color_C9</item>
+        <item name="isv_color_C9_3">@color/color_C9_3</item>
+        <item name="isv_color_C9_3_A7">@color/color_C9_3_A7</item>
+        <item name="isv_color_C10_d">@color/color_C10_d</item>
+        <item name="isv_color_C10_d_A7">@color/color_C10_d_A7</item>
+        <item name="isv_color_C30">@color/color_C30</item>
+        <item name="isv_color_C31">@color/color_C31</item>
+        <item name="isv_color_C32">@color/color_C32</item>
+        
+        <!-- 字体大小属性 -->
+        <item name="isv_font_size_T2">@dimen/font_size_T2</item>
+        <item name="isv_font_size_T3">@dimen/font_size_T3</item>
+        <item name="isv_font_size_T5">@dimen/font_size_T5</item>
+        <item name="isv_font_size_T6">@dimen/font_size_T6</item>
+        <item name="isv_font_size_T7">@dimen/font_size_T7</item>
+        <item name="isv_font_size_T8">@dimen/font_size_T8</item>
+        <item name="isv_font_size_T9">@dimen/font_size_T9</item>
+        <item name="isv_font_size_T10">@dimen/font_size_T10</item>
+        <item name="isv_font_size_T11">@dimen/font_size_T11</item>
+        
+        <!-- 图标属性 -->
+        <item name="isv_icon_user_default">@android:drawable/ic_menu_gallery</item>
+        <item name="isv_icon_recommend_title_left">@android:drawable/ic_menu_sort_by_size</item>
+        <item name="isv_icon_recommend_title_right">@android:drawable/ic_menu_sort_by_size</item>
+        
+        <!-- 按钮属性 -->
+        <item name="isv_button_B2">@android:drawable/btn_default</item>
+        <item name="isv_button_B2_C10_bg">@android:drawable/btn_default</item>
+        <item name="isv_button_B15">@android:drawable/btn_default</item>
+        <item name="isv_button_B19">@android:drawable/btn_default</item>
+        
+        <!-- 间距属性 -->
+        <item name="isv_space_W10">@dimen/space_W10</item>
+        <item name="isv_space_W11">@dimen/space_W11</item>
+        
+        <!-- 更多颜色属性 -->
+        <item name="isv_color_C8_70">@color/color_C8_70</item>
+        
+        <!-- 自定义控件属性 -->
+        <item name="iiv_all_color">@color/color_C9</item>
+        <item name="iiv_size">24dp</item>
+        <item name="iiv_icon">@android:drawable/ic_menu_view</item>
+        <item name="iiv_color">@color/color_C9</item>
+        <item name="iiv_start_icon">@android:drawable/ic_media_play</item>
+        <item name="iiv_start_size">@dimen/common_ui_50dp</item>
+        <item name="iiv_start_color">@color/color_C1</item>
+        
+        <!-- 圆角属性 -->
+        <item name="isv_corner_R1">@dimen/corner_R1</item>
+        <item name="isv_corner_R2">@dimen/corner_R2</item>
+        <item name="isv_corner_R60">@dimen/corner_R60</item>
+    </style>
+
+</resources>

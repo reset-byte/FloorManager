@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 图片相关属性 -->
+    <attr name="isv_image_placeholder" format="reference" />
+    <attr name="isv_image_user_default" format="reference" />
+    <attr name="isv_icon_shop_default" format="reference" />
+    
+    <!-- 颜色相关属性 -->
+    <attr name="isv_color_C9_3" format="color" />
+    <attr name="isv_color_C7" format="color" />
+    <attr name="isv_color_C4" format="color" />
+    <attr name="isv_color_C8_2" format="color" />
+    
+    <!-- 尺寸相关属性 -->
+    <attr name="isv_space_W12" format="dimension" />
+    <attr name="isv_space_W3" format="dimension" />
+    <attr name="isv_corner_R1" format="dimension" />
+    
+    <!-- 主题属性集合 -->
+    <declare-styleable name="FloorManagerTheme">
+        <attr name="isv_image_placeholder" />
+        <attr name="isv_image_user_default" />
+        <attr name="isv_icon_shop_default" />
+        <attr name="isv_color_C9_3" />
+        <attr name="isv_color_C7" />
+        <attr name="isv_color_C4" />
+        <attr name="isv_color_C8_2" />
+        <attr name="isv_space_W12" />
+        <attr name="isv_space_W3" />
+        <attr name="isv_corner_R1" />
+    </declare-styleable>
+    
+    <!-- 颜色属性 -->
+    <attr name="isv_color_C1" format="color" />
+    <attr name="isv_color_C2" format="color" />
+    <attr name="isv_color_C3" format="color" />
+    <attr name="isv_color_C5" format="color" />
+    <attr name="isv_color_C8_30" format="color" />
+    <attr name="isv_color_C9" format="color" />
+    <attr name="isv_color_C9_3_A7" format="color" />
+    <attr name="isv_color_C10_d" format="color" />
+    <attr name="isv_color_C10_d_A7" format="color" />
+    <attr name="isv_color_C30" format="color" />
+    <attr name="isv_color_C31" format="color" />
+    <attr name="isv_color_C32" format="color" />
+    
+    <!-- 字体大小属性 -->
+    <attr name="isv_font_size_T2" format="dimension" />
+    <attr name="isv_font_size_T3" format="dimension" />
+    <attr name="isv_font_size_T5" format="dimension" />
+    <attr name="isv_font_size_T6" format="dimension" />
+    <attr name="isv_font_size_T7" format="dimension" />
+    <attr name="isv_font_size_T8" format="dimension" />
+    <attr name="isv_font_size_T9" format="dimension" />
+    <attr name="isv_font_size_T10" format="dimension" />
+    <attr name="isv_font_size_T11" format="dimension" />
+    
+    <!-- 图标属性 -->
+    <attr name="isv_icon_user_default" format="reference" />
+    <attr name="isv_icon_recommend_title_left" format="reference" />
+    <attr name="isv_icon_recommend_title_right" format="reference" />
+    
+    <!-- 圆角属性 -->
+    <attr name="isv_corner_R2" format="dimension" />
+    <attr name="isv_corner_R60" format="dimension" />
+    
+    <!-- ScaleRatingBar 属性 -->
+    <attr name="ratingStarColor" format="color" />
+    <attr name="starNum" format="integer" />
+    <attr name="starSize" format="dimension" />
+    <attr name="starStep" format="float" />
+    <attr name="defaultStarColor" format="color" />
+    <attr name="isIndicator" format="boolean" />
+    <attr name="rating" format="float" />
+    <attr name="ratingStar" format="reference" />
+    <attr name="starGap" format="dimension" />
+    <attr name="defaultStar" format="reference" />
+    
+    <!-- ScaleRatingBar styleable -->
+    <declare-styleable name="ScaleRatingBar">
+        <attr name="ratingStarColor" />
+        <attr name="starNum" />
+        <attr name="starSize" />
+        <attr name="starStep" />
+        <attr name="defaultStarColor" />
+        <attr name="isIndicator" />
+        <attr name="rating" />
+        <attr name="ratingStar" />
+        <attr name="starGap" />
+        <attr name="defaultStar" />
+    </declare-styleable>
+    
+    <!-- 按钮属性 -->
+    <attr name="isv_button_B2" format="reference" />
+    <attr name="isv_button_B2_C10_bg" format="reference" />
+    <attr name="isv_button_B15" format="reference" />
+    <attr name="isv_button_B19" format="reference" />
+    
+    <!-- 间距属性 -->
+    <attr name="isv_space_W10" format="dimension" />
+    <attr name="isv_space_W11" format="dimension" />
+    
+    <!-- 更多颜色属性 -->
+    <attr name="isv_color_C8_70" format="color" />
+    
+    <!-- 自定义控件属性 -->
+    <attr name="iiv_all_color" format="color" />
+    <attr name="iiv_size" format="dimension" />
+    <attr name="iiv_icon" format="reference" />
+    <attr name="iiv_color" format="color" />
+    <attr name="iiv_start_icon" format="reference" />
+    <attr name="iiv_start_size" format="dimension" />
+    <attr name="iiv_start_color" format="color" />
+</resources> 

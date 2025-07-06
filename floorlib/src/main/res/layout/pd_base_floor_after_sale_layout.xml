@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/pd_base_floor_padding">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/afterSaleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pd_base_floor_padding"
+        android:layout_marginTop="@dimen/pd_base_floor_padding"
+        android:text="@string/pd_base_floor_title_after_sale"
+        android:textColor="?attr/isv_color_C7"
+        android:textSize="?attr/isv_font_size_T6"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/afterSaleContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pd_base_floor_padding"
+        android:layout_marginRight="@dimen/pd_base_floor_padding"
+        android:layout_marginTop="@dimen/pd_base_floor_padding"
+        android:textColor="?attr/isv_color_C5"
+        android:textSize="?attr/isv_font_size_T9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/afterSaleTitle" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/packageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pd_base_floor_padding"
+        android:layout_marginTop="@dimen/pd_base_floor_padding"
+        android:text="@string/pd_base_floor_title_package"
+        android:textColor="?attr/isv_color_C7"
+        android:textSize="?attr/isv_font_size_T6"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/afterSaleContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/packageContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pd_base_floor_padding"
+        android:layout_marginRight="@dimen/pd_base_floor_padding"
+        android:layout_marginTop="@dimen/pd_base_floor_padding"
+        android:textColor="?attr/isv_color_C5"
+        android:textSize="?attr/isv_font_size_T9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/packageTitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

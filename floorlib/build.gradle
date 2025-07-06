@@ -1,0 +1,121 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace "com.github.floormanager.floorlib"
+    compileSdk 35
+    
+    defaultConfig {
+        minSdk 24
+        targetSdk 35
+        multiDexEnabled true
+        vectorDrawables {
+            useSupportLibrary true
+        }
+        consumerProguardFiles 'consumer-rules.pro'
+        
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+    
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            consumerProguardFiles 'consumer-rules.pro'
+        }
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources true
+            returnDefaultValues true
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    
+    resourcePrefix "pd_base_floor_"
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+    
+    packagingOptions {
+        exclude 'META-INF/*.kotlin_module'
+    }
+    
+    configurations.all {
+        exclude group: 'com.android.support'
+    }
+}
+
+dependencies {
+    // Android 基础库
+    implementation libs.androidx.recyclerview
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.activity.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.constraintlayout
+    implementation libs.androidx.viewpager
+    
+    // 生命周期组件
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    implementation libs.androidx.lifecycle.livedata.ktx
+    implementation libs.androidx.lifecycle.runtime.ktx
+    
+    // Kotlin 协程
+    implementation libs.kotlinx.coroutines.core
+    implementation libs.kotlinx.coroutines.android
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.0.0'
+    
+    // 图片加载库 - Glide
+    implementation libs.glide
+    kapt libs.glide.compiler
+    
+    // 视频播放库 - ExoPlayer
+    implementation(libs.exoplayer) {
+        exclude group: 'com.android.support'
+    }
+    implementation(libs.exoplayer.ui) {
+        exclude group: 'com.android.support'
+    }
+    
+    // 路由库 - ARouter
+    implementation libs.arouter
+    kapt libs.arouter.compiler
+    
+    // 动画库 - Lottie
+    implementation libs.lottie
+    
+    // JSON 解析库 - Gson
+    implementation libs.gson
+    
+    // Material Design 组件
+    implementation libs.material
+    
+    // 测试库
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+}

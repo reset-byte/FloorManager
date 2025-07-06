@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="18dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/day_container"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="@drawable/pd_base_floor_bg_count_down"
+        android:gravity="center"
+        android:textColor="?attr/isv_color_C30"
+        android:textSize="?attr/isv_font_size_T9" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/day_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/pd_base_floor_day"
+        android:textColor="?attr/isv_color_C1"
+        android:textSize="?attr/isv_font_size_T11"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hour_container"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="@drawable/pd_base_floor_bg_count_down"
+        android:gravity="center"
+        android:textColor="?attr/isv_color_C30"
+        android:textSize="?attr/isv_font_size_T9" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/pd_base_floor_count_down_divider"
+        android:textColor="?attr/isv_color_C1"
+        android:textSize="?attr/isv_font_size_T11"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/minute_container"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="@drawable/pd_base_floor_bg_count_down"
+        android:gravity="center"
+        android:textColor="?attr/isv_color_C30"
+        android:textSize="?attr/isv_font_size_T9" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/pd_base_floor_count_down_divider"
+        android:textColor="?attr/isv_color_C1"
+        android:textSize="?attr/isv_font_size_T11"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/second_container"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="@drawable/pd_base_floor_bg_count_down"
+        android:gravity="center"
+        android:textColor="?attr/isv_color_C30"
+        android:textSize="?attr/isv_font_size_T9" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="10dp"
+    android:drawableLeft="@drawable/pd_base_floor_icon_service_item"
+    android:drawablePadding="2dp"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:maxLines="1"
+    android:textColor="?attr/isv_color_C5"
+    android:textSize="?attr/isv_font_size_T9" />

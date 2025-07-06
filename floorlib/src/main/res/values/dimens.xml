@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pd_base_floor_padding">18dp</dimen>
+    
+    <!-- 圆角尺寸 -->
+    <dimen name="corner_R1">2dp</dimen>
+    <dimen name="corner_R2">4dp</dimen>
+    <dimen name="corner_R60">6dp</dimen>
+    
+    <!-- 字体大小 -->
+    <dimen name="font_size_T2">20sp</dimen>
+    <dimen name="font_size_T3">18sp</dimen>
+    <dimen name="font_size_T5">16sp</dimen>
+    <dimen name="font_size_T6">16sp</dimen>
+    <dimen name="font_size_T7">14sp</dimen>
+    <dimen name="font_size_T8">12sp</dimen>
+    <dimen name="font_size_T9">10sp</dimen>
+    <dimen name="font_size_T10">9sp</dimen>
+    <dimen name="font_size_T11">8sp</dimen>
+    
+    <!-- 间距属性 -->
+    <dimen name="space_W10">10dp</dimen>
+    <dimen name="space_W11">11dp</dimen>
+    
+    <!-- 通用尺寸 -->
+    <dimen name="common_ui_15dp">15dp</dimen>
+    <dimen name="common_ui_18dp">18dp</dimen>
+    <dimen name="common_ui_50dp">50dp</dimen>
+</resources>

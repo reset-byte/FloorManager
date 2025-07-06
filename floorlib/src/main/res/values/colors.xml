@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础颜色 -->
+    <color name="color_C1">#FFFFFF</color>
+    <color name="color_C2">#F5F5F5</color>
+    <color name="color_C3">#E0E0E0</color>
+    <color name="color_C4">#CCCCCC</color>
+    <color name="color_C5">#999999</color>
+    <color name="color_C7">#666666</color>
+    <color name="color_C8_30">#4D333333</color>
+    <color name="color_C8_70">#B3333333</color>
+    <color name="color_C9">#333333</color>
+    <color name="color_C9_3">#FF6600</color>
+    <color name="color_C9_3_A7">#B3FF6600</color>
+    <color name="color_C10_d">#FF3333</color>
+    <color name="color_C10_d_A7">#B3FF3333</color>
+    <color name="color_C30">#000000</color>
+    <color name="color_C31">#FFD700</color>
+    <color name="color_C32">#FFA500</color>
+</resources>
